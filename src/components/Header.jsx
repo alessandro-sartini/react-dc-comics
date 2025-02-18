@@ -1,49 +1,72 @@
+import logoHeader from "../assets/img/dc-logo.png"
+
 // const Header = () => {
-   
-    
 //     return (
-        
-//     <header>
-            
+       
 
-//         <div className="row">
-            
-//             <div className="col-3">
-//                 <figure>
-//                     <img src="/dc-logo.png" alt=" logo" />
-//                 </figure>
-//             </div>
 
+   
+//         <header>
+//             <div className="logo">
+//                 <img src={logoHeader} alt="" />
 //         </div>
-        
-        
-
+//         <nav>
+//             <ul>
+//                 <li><a href="#">Characters</a></li>
+//                 <li><a href="#">Comics</a></li>
+//                 <li><a href="#">Movies</a></li>
+//                 <li><a href="#">TV</a></li>
+//                 <li><a href="#">Games</a></li>
+//                 <li><a href="#">Collectibles</a></li>
+//                 <li><a href="#">Videos</a></li>
+//                 <li><a href="#">Fans</a></li>
+//                 <li><a href="#">News</a></li>
+//                 <li><a href="#">Shop</a></li>
+//             </ul>
+//         </nav>
 //     </header>
     
-//     )
-
+//   )
 
 // }
 
-// export default Header
-
 const Header = () => {
+
     return (
-        <header>
-            <figure>
-                <img src="/logo.png" alt="Logo" />
-            </figure>
+            
+        <header className="bg-white shadow-sm py-3">
+        <div className="container d-flex justify-content-between align-items-center">
+            <div className="logo">
+            <img src={logoHeader} alt="" />
+            </div>
             <nav>
-                <ul>
-                    <li><a className="text-primary" href="#">Home</a></li>
-                    <li><a href="#" className="active">Prodotti</a></li>
-                    <li><a href="#">Chi siamo</a></li>
-                    <li><a href="#">Contatti</a></li>
+                <ul className="nav">
+                    <li className="nav-item"><a className="nav-link fw-bold" href="#">Characters</a></li>
+                    <li className="nav-item"><a className="nav-link fw-bold" href="#">Comics</a></li>
+                    <li className="nav-item"><a className="nav-link fw-bold" href="#">Movies</a></li>
+                    <li className="nav-item"><a className="nav-link fw-bold" href="#">TV</a></li>
+                    <li className="nav-item"><a className="nav-link fw-bold" href="#">Games</a></li>
+                    <li className="nav-item"><a className="nav-link fw-bold" href="#">Collectibles</a></li>
+                    <li className="nav-item"><a className="nav-link fw-bold" href="#">Videos</a></li>
+                    <li className="nav-item"><a className="nav-link fw-bold" href="#">Fans</a></li>
+                    <li className="nav-item"><a className="nav-link fw-bold" href="#">News</a></li>
+                    <li className="nav-item"><a className="nav-link fw-bold" href="#">Shop</a></li>
                 </ul>
             </nav>
+        </div>
+    </header>
+    
 
-        </header>
-    )
+
+
+
+        )
+
+
+
+
+
 }
 
 export default Header
+
