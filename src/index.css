@@ -1,3 +1,43 @@
 h2{
     margin-bottom: 0;
 }
+
+ul{
+    padding: 0;
+
+}
+a{
+  text-decoration: none;  
+}
+/* 
+li{
+    text-decoration: none;
+} */
+
+header{
+    height: 10vh;
+
+
+}
+main{
+
+    height: 55vh;
+
+
+}
+.background {
+    position: relative;
+    background-image: url('../src/assets/img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .logo-bg {
+    background-image: url('../src/assets/img/dc-logo-bg.png');
+    position: absolute;
+    right: 10%; 
+    top: 65%; 
+    height: 200px;
+    width: 500px; 
+    z-index: 1;
+} */
