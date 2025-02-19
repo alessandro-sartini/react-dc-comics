@@ -2,7 +2,7 @@ import logoHeader from "../assets/img/dc-logo.png"
 import NavBar from "./NavBar"
 
 
-const Header = () => {
+const Header = (props) => {
 
     return (
             
@@ -12,7 +12,7 @@ const Header = () => {
                 <img src={logoHeader} alt="" />
                 </div>
                 <nav>
-                    <NavBar />
+                    <NavBar arraylinkNav={props.arraylinkNav} />
                 </nav>
             </div>
         </header>
