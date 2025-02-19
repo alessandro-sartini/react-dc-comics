@@ -14,8 +14,8 @@ const Footer = () => {
             <div className="background row row-cols-4 py-3">
 
             <div className="back">
-                <div className="row px-3">
-                        <div className="col-4">
+                <div className="row p-3">
+                        <div className="col-4 ">
                             <h6 className="text-white">DC COMICS</h6>
                             <ul className="d-flex flex-column">
                                 <li className=""><a className="text-white" href="#">Characters</a></li>
@@ -69,10 +69,12 @@ const Footer = () => {
 
                 </div>
 
-                {/* <div className="col-8">
+                {/* 
+                <div className="col-8">
 
 
-                </div> */}
+                </div> */
+                }
 
 
 

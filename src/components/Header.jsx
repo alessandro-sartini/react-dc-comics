@@ -1,5 +1,5 @@
 import logoHeader from "../assets/img/dc-logo.png"
-
+import NavBar from "./NavBar"
 
 
 const Header = () => {
@@ -12,33 +12,28 @@ const Header = () => {
                 <img src={logoHeader} alt="" />
                 </div>
                 <nav>
-                    <ul className="nav">
-                        <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">Characters</a></li>
-                        <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">Comics</a></li>
-                        <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">Movies</a></li>
-                        <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">TV</a></li>
-                        <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">Games</a></li>
-                        <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">Collectibles</a></li>
-                        <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">Videos</a></li>
-                        <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">Fans</a></li>
-                        <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">News</a></li>
-                        <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">Shop</a></li>
-                    </ul>
+                    <NavBar />
                 </nav>
             </div>
         </header>
     
-
-
-
-
-        )
-
-
-
-
+    
+    )
 
 }
 
 export default Header
 
+
+{/* <ul className="nav">
+    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">Characters</a></li>
+    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">Comics</a></li>
+    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">Movies</a></li>
+    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">TV</a></li>
+    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">Games</a></li>
+    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">Collectibles</a></li>
+    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">Videos</a></li>
+    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">Fans</a></li>
+    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">News</a></li>
+    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">Shop</a></li>
+</ul> */}
