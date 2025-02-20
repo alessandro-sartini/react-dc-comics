@@ -41,6 +41,7 @@
   /*! test */
   background-attachment: fixed; 
 
+
 }
 
   
@@ -50,6 +51,7 @@
     font-weight: 500
   }
   .container-my{
+    position: relative;
     /* width: 80%; */
     margin: 0 auto;
     display: flex;
@@ -58,14 +60,9 @@
     gap: 10px;
   }
 
-  /* Card components */
+  /*! Card components */
 
-  /* .container-my figure{
-    display: flex;
-    justify-content: center;
-    flex-basis: calc( 100% / 6 - 10px);
-    
-  } */
+ 
  
   .cardContainer{
     display: flex;
@@ -83,9 +80,29 @@
   }
   .cardContainer figure img {
     max-width: 80%;
+    
+    max-height: 25rem;
+    /* max-width: 25rem; */
+    /* aspect-ratio:auto; */
+
     /* mi ritaglia l'immagine  */
-    clip-path: inset(0 18% 0 18%);
+    /* clip-path: inset(0 18% 0 18%); */
     /* margin: 0 auto;     */
+  }
+
+  /* ! label component */
+
+.label{
+
+    position: absolute;
+    top: -30px;
+    left: 40px;
+    background-color: #0282f9;
+    padding-inline: 15px;
+    padding-block: 10px;
+    font-size: large;
+    /* font-weight: bolder */
+    /* right: -20px; */
   }
 
 

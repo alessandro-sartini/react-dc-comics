@@ -6,7 +6,7 @@ import power from "../assets/img/buy-dc-power-visa.svg"
 
 
 import Jumbo from "./mainComponents/jumbo"
-
+import LabelMain from "../LabelMain"
 
 import Card from "./mainComponents/Card"
 const Main = (props) => {
@@ -19,6 +19,7 @@ const Main = (props) => {
 
                 <Jumbo />
                 <section className="container-my">
+                <LabelMain/>
                         <Card  arrayComics={props.arrayComics}/>
                         
                     {/* <h2 className="p-5 fw-bold text-white ">  Content goes here... </h2> */}

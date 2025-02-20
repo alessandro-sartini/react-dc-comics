@@ -169,7 +169,7 @@ const Card = (props) => {
                             <img src={e.thumb} alt={e.alt} />
                             {/* <h5>SuperMan</h5> */}
                     </figure>
-                    <h5>{ e.title}</h5>
+                    <h6>{ e.title}</h6>
 
 
             </div>
