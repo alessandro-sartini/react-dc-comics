@@ -5,7 +5,10 @@ import subScription from "../assets/img/buy-comics-subscriptions.png"
 import power from "../assets/img/buy-dc-power-visa.svg"
 
 
-import Jumbo from  "./mainComponents/jumbo"
+import Jumbo from "./mainComponents/jumbo"
+
+
+import Card from "./mainComponents/Card"
 const Main = () => {
 
     return (
@@ -16,7 +19,12 @@ const Main = () => {
 
             <Jumbo />
             <section className="container-my">
-
+                    <Card />
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
                 <h2 className="p-5 fw-bold text-white ">  Content goes here... </h2>
 
 
