@@ -30,12 +30,13 @@ const NavBar = (props) => {
     // ];
 
     const { arraylinkNav } = props;
+    
     return (
 
         <ul className="nav">
 
             {arraylinkNav.map((e) => {
-                return <li li key = { e.id } className={ e.current ? 'active' : '' }  > <a className =" nav-link text-dark fw-bold "  href={e.url}>{e.text}</a></li>
+                return <li  key = { e.id } className={ e.current ? 'active' : '' }  > <a className =" nav-link text-dark fw-bold "  href={e.url}>{e.text}</a></li>
             })}
 
         </ul>
