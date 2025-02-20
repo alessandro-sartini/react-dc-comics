@@ -31,7 +31,18 @@
     color: #0C6EFD;
   }
   
+  /* ! main*/
+.container-jumbo{
   
+  background-image: url("./assets/img/jumbotron.jpg");
+  min-height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*! test */
+  background-attachment: fixed; 
+
+}
+
   
   main,
   p {

@@ -4,18 +4,28 @@ import shop from "../assets/img/buy-comics-shop-locator.png"
 import subScription from "../assets/img/buy-comics-subscriptions.png"
 import power from "../assets/img/buy-dc-power-visa.svg"
 
+
+import Jumbo from  "./mainComponents/jumbo"
 const Main = () => {
 
     return (
             
         <main className="bg-dark">
 
+            <div >
+
+            <Jumbo />
             <section className="container-my">
 
                 <h2 className="p-5 fw-bold text-white ">  Content goes here... </h2>
 
 
             </section>
+
+
+            </div>
+
+
             <section class="bg-primary text-white py-3">
                 <div class="container text-center">
                     <ul class="list-inline m-3">
