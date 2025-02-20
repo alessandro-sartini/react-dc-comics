@@ -1,19 +1,3 @@
-{/* <nav>
-<ul className="nav">
-    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#"></a></li>
-    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#"></a></li>
-    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#"></a></li>
-    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#"></a></li>
-    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#"></a></li>
-    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#"></a></li>
-    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#"></a></li>
-    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#"></a></li>
-    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#"></a></li>
-    <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#"></a></li>
-</ul>
-</nav> */}
-
-
 const NavBar = (props) => {
     
     // const links = [
@@ -35,9 +19,15 @@ const NavBar = (props) => {
 
         <ul className="nav">
 
-            {arraylinkNav.map((e) => {
-                return <li  key = { e.id } className={ e.current ? 'active' : '' }  > <a className =" nav-link text-dark fw-bold "  href={e.url}>{e.text}</a></li>
-            })}
+            {
+                arraylinkNav.map((e) => {
+                    return(
+                        <li key={e.id} className={e.current ? 'active' : ''}  >
+                            <a className=" nav-link text-dark fw-bold " href={e.url}>{e.text}</a>
+                        </li>
+                    )
+                })
+            }
 
         </ul>
 

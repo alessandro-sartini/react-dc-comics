@@ -8,9 +8,9 @@ const Main = () => {
 
     return (
             
-        <main className="">
+        <main className="bg-dark">
 
-            <section className="bg-dark ">
+            <section className="container-my">
 
                 <h2 className="p-5 fw-bold text-white ">  Content goes here... </h2>
 
