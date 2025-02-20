@@ -172,7 +172,8 @@ const Card = (props) => {
                     <h6>{ e.title}</h6>
 
 
-            </div>
+              </div>
+              
 
 
             )

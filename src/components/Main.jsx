@@ -19,9 +19,9 @@ const Main = (props) => {
 
                 <Jumbo />
                 <section className="container-my">
-                <LabelMain/>
+                    <LabelMain/>
                         <Card  arrayComics={props.arrayComics}/>
-                        
+                    <button className="btn-main">load more</button>
                     {/* <h2 className="p-5 fw-bold text-white ">  Content goes here... </h2> */}
 
 
