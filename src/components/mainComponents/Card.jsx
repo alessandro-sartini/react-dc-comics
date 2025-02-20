@@ -161,24 +161,22 @@ const Card = (props) => {
 
         arrayComics.map((e) => {
             
-            return (
-                <div className="cardContainer">
-
-                    <figure>
-
-                            <img src={e.thumb} alt={e.alt} />
-                            {/* <h5>SuperMan</h5> */}
-                    </figure>
-                    <h6>{ e.title}</h6>
-
-
-              </div>
+          return (
               
+                <div className="cardContainer" key={e.id}>
+
+                  <figure>
+
+                    <img src={e.thumb} alt={e.alt} />
+                            {/* <h5>SuperMan</h5> */}
+                  </figure>
+              
+                  <h6>{ e.title} </h6>
 
 
+                </div>
+              
             )
-
-
         })
             // <div className="cardContainer">
 

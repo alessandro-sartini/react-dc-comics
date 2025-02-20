@@ -21,12 +21,15 @@ const Main = (props) => {
                 <section className="container-my">
                     <LabelMain/>
                         <Card  arrayComics={props.arrayComics}/>
-                    <button className="btn-main">load more</button>
                     {/* <h2 className="p-5 fw-bold text-white ">  Content goes here... </h2> */}
 
 
                 </section>
+                <div className="container-my">
+                    
+                    <button className="btn-main">load more</button>
 
+                </div>
 
             </div>
 
@@ -45,14 +48,7 @@ const Main = (props) => {
         </main>
     
 
-
-
-
     )
-
-
-
-
 
 }
 
