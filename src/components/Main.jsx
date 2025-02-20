@@ -9,7 +9,7 @@ import Jumbo from "./mainComponents/jumbo"
 
 
 import Card from "./mainComponents/Card"
-const Main = () => {
+const Main = (props) => {
 
     return (
             
@@ -17,18 +17,14 @@ const Main = () => {
 
             <div >
 
-            <Jumbo />
-            <section className="container-my">
-                    <Card />
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                <h2 className="p-5 fw-bold text-white ">  Content goes here... </h2>
+                <Jumbo />
+                <section className="container-my">
+                        <Card  arrayComics={props.arrayComics}/>
+                        
+                    {/* <h2 className="p-5 fw-bold text-white ">  Content goes here... </h2> */}
 
 
-            </section>
+                </section>
 
 
             </div>

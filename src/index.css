@@ -54,30 +54,45 @@
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 10px;
   }
 
   /* Card components */
 
-  .container-my figure{
-    display: inline;
-    /* max-width: calc( 100% / 6); */
+  /* .container-my figure{
+    display: flex;
+    justify-content: center;
     flex-basis: calc( 100% / 6 - 10px);
     
-  }
-
-
-  .container-my figure img {
-    max-width: 100%;
-    height: auto;
-  }
-  /* .container-my figure img{
-
-    flex-basis: calc( 100% / 4);
   } */
+ 
+  .cardContainer{
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc( 100% / 6 - 10px);
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+  }
+
+  .cardContainer figure {
+    display:flex ;
+    justify-content: center;
+
+  }
+  .cardContainer figure img {
+    max-width: 80%;
+    /* mi ritaglia l'immagine  */
+    clip-path: inset(0 18% 0 18%);
+    /* margin: 0 auto;     */
+  }
 
 
+
+
+
+/* ! footer */
   
   footer {
     background-image: url("./assets/img/footer-bg.jpg");

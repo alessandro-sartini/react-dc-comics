@@ -2,6 +2,8 @@ import Header from "./components/Header"
 import Main from "./components/Main"
 import Footer from "./components/Footer"
 
+import comics from "./data/comics"
+
 const arraylinkNav = [
        { id: 1, text: 'Characters', url: '#', current: false },
        { id: 2, text: 'Comics', url: '#', current: true },
@@ -21,7 +23,7 @@ function App() {
 
     <>
     <Header arraylinkNav={ arraylinkNav } />
-    <Main />
+    <Main arrayComics={comics} />
     <Footer />
 
     </>
